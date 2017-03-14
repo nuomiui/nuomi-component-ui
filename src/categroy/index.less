@@ -1,0 +1,111 @@
+.categroy-list {
+    position: relative;
+    margin-bottom: 10px;
+    background-color: #fff;
+    .categroy-list-ul {
+        padding-top: 20px;
+        margin: 0 10px;
+        overflow: hidden;
+        position: relative;
+        &.eight {
+            .cate-item .item-icon {
+                padding: 0 0 40% 40%;
+            }
+        }
+        &.mutiplay {
+            height: 167px;
+        }
+        .screen {
+            width: 100%;
+            display: inline-block;
+            cursor: pointer;
+            position: absolute;
+            top: 20px;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+        }
+        .cate-item{
+            float: left;
+            width: 20%;
+            text-align: center;
+            margin-bottom: 20px;
+            cursor: pointer;
+            .item-icon{
+                width: 0;
+                height: 0;
+                padding: 0 0 50% 50%;
+                margin: 0 auto;
+                position: relative;
+                .icon{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-size: 100% 100%;
+                    background-repeat: no-repeat;
+                    overflow: hidden;
+                }
+                .hoticon{
+                    position: absolute;
+                    top: -16.7%;
+                    left: 77.6%;
+                    width: 73.4%;
+                    height: 40%;
+                    background-size: 100% 100%;
+                    background-repeat: no-repeat;
+                }
+            }
+            .item-text{
+                width: 100%;
+                height: 12px;
+                line-height: 12px;
+                font-size: 12px;
+                color: #333;
+                margin-top: 10px;
+            }
+            @media only screen and (-webkit-min-device-pixel-ratio: 3){
+                .item-text {
+                    line-height: 14px;
+                    height: 14px;
+                    line-height: 14px;
+                    &.mate7 {
+                        font-size: 12px;
+                        line-height: 12px;
+                        height: 12px;
+                    }
+                }
+
+            }
+        }
+        &.eight {
+            .cate-item {
+                width: 25%;
+            }
+        }
+    }
+    .pointers {
+        position: absolute;
+        bottom: 10px;
+        width: 100%;
+        text-align: center;
+        height: 8px;
+        line-height: 8px;
+        i {
+            display: inline-block;
+            margin-left: 5px;
+            width: 8px;
+            height: 8px;
+            border-radius: 8px;
+            box-sizing: border-box;
+            background-color: #ccc;
+            &.active {
+                background: #333;
+            }
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+    }
+}
