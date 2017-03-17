@@ -3,7 +3,7 @@ import { shallow, mount, render } from 'enzyme';
 import TopBanner from '../src/top-banner';
 describe("A suite", function() {
   it("contains spec with an expectation", function() {
-    expect(shallow(<TopBanner />).contains(<div className="top-banner">TopBanner</div>)).toBe(true);
+    expect(shallow(<TopBanner />).contains(<div className="top-banner"></div>)).toBe(true);
   });
 
   it("contains spec with an expectation", function() {

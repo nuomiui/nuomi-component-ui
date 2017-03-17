@@ -8,7 +8,6 @@
  * @param    {Array} tags 标签数组
  * @return   {ReactElement}
  */
-
 import React, {Component} from 'react';
 import './index.less';
 export default class BgTag9 extends Component {

@@ -6,3 +6,6 @@ exports.BgTag9 = BgTag9;
 
 import Categroy from './categroy';
 exports.Categroy = Categroy;
+
+import Test from './bg-tag9';
+exports.Test = Test;
