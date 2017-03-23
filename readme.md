@@ -19,11 +19,11 @@
 
 
 #### 模块列表
-[带背景色的9号字像素块](https://github.com/memoryza/nuomi-component-ui/tree/master/doc/bg9.md)
+[带背景色的9号字像素块](https://github.com/memoryza/nuomi-component-ui/blob/master/doc/bg9.md)
 
-[多针轮播](https://github.com/memoryza/nuomi-component-ui/tree/master/doc/carousel-banner.md)
+[多针轮播](https://github.com/memoryza/nuomi-component-ui/blob/master/doc/carousel-banner.md)
 
-[金刚位](https://github.com/memoryza/nuomi-component-ui/tree/master/doc/categroy.md)
+[金刚位](https://github.com/memoryza/nuomi-component-ui/blob/master/doc/category.md)
 
 
 
