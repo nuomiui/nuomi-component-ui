@@ -29,7 +29,7 @@ class App extends Component {
         return <div>
             <BgTag9 tags={this.state.tags} len={3}/>
             <Categroy categroy={itemList} count={8} events={event} />
-            <CarouselBanner itemlist={this.state.itemlist} height={100} />
+            <CarouselBanner itemlist={this.state.itemlist} height={100}/>
         </div>
     }
 }

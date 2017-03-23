@@ -5,8 +5,7 @@
 | 参数KEY(类型)        | 说明         | 默认值  |
 | ------------- |:-------------:| -----:|
 | <font color=red>itemlist</font>(Array) |  数据项| [] |
-| height(String|Number)| 容器高度| 130px
-| pointer(Boolean)| 是否需要点| true
+| height(String or Number)| 容器高度| 130px
 | events(Object) | {click: 点击时间回调}      |   {} |
 
 
@@ -15,7 +14,7 @@
         let demoData = [{img: 'https://gss0.baidu.com/-vo3dSag_xI4khGko9WTAnF6hhy/nuomi/pic/item/b21c8701a18b87d672a829f90e0828381e30fd6a.jpg'},
             {img: 'https://gss0.baidu.com/-vo3dSag_xI4khGko9WTAnF6hhy/nuomi/pic/item/b21c8701a18b87d672a829f90e0828381e30fd6a.jpg'},
             {img: 'https://gss0.baidu.com/-vo3dSag_xI4khGko9WTAnF6hhy/nuomi/pic/item/b21c8701a18b87d672a829f90e0828381e30fd6a.jpg'}]
-            
+
         import { CarouselBanner} from 'nuomi-ui';
 
         // 省略react相关代码
