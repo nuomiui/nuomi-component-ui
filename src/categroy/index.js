@@ -21,7 +21,6 @@ import swipe from 'swipe';
 let isMutilScreen = false;
 export default class Categroy extends Component {
     componentDidMount() {
-        console.log(isMutilScreen)
         if (isMutilScreen) {
             swipe(document.querySelector('.categroy-list-ul'), {
                 startSlide: 0,

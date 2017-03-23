@@ -40,6 +40,7 @@
   margin: 0 10px;
   overflow: hidden;
   position: relative;
+  height: 144px;
 }
 .categroy-list .categroy-list-ul.eight .cate-item .item-icon {
   padding: 0 0 40% 40%;

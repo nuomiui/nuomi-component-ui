@@ -12,7 +12,6 @@ fs.readdirSync(jsDir).map(function (file) {
         name && (entry[name] = path.join(jsDir, file));
     }
 });
-
 module.exports = {
     entry: entry,
     output: {

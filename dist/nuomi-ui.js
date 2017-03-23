@@ -59,7 +59,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "ccd1b7a153662c444c7a"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "adbd6a9593c04bf3ddc2"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotMainModule = true; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
@@ -3405,7 +3405,6 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
  * @param    {Array} tags 标签数组
  * @return   {ReactElement}
  */
-
 var BgTag9 = function (_Component) {
     (0, _inherits3.default)(BgTag9, _Component);
 
@@ -3529,7 +3528,6 @@ var Categroy = function (_Component) {
     (0, _createClass3.default)(Categroy, [{
         key: 'componentDidMount',
         value: function componentDidMount() {
-            console.log(isMutilScreen);
             if (isMutilScreen) {
                 (0, _swipe2.default)(document.querySelector('.categroy-list-ul'), {
                     startSlide: 0,
@@ -7174,6 +7172,8 @@ exports.TopBanner = _topBanner2.default;
 exports.BgTag9 = _bgTag2.default;
 
 exports.Categroy = _categroy2.default;
+
+exports.Test = _bgTag2.default;
 
 /***/ })
 /******/ ]);
