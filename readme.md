@@ -51,4 +51,4 @@
 
 
 结果
-<img src="./doc/img/categroy.png" width="320"/>
+<img src="./doc/img/category.png" width="320"/>
